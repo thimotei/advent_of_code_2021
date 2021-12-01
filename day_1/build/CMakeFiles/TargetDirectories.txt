@@ -1,0 +1,3 @@
+/home/tim/aoc_2021/day_1/build/CMakeFiles/main.dir
+/home/tim/aoc_2021/day_1/build/CMakeFiles/edit_cache.dir
+/home/tim/aoc_2021/day_1/build/CMakeFiles/rebuild_cache.dir
