@@ -1,2 +1,2 @@
-build/*
-!build/main
+day_*/build/*
+!day_*/build/main
