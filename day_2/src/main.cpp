@@ -75,8 +75,6 @@ int main()
         stringstream s;
         s << magnitude;
         s >> value;
-        //std::cout << s.str() << std::endl;
-
 
         if (direction == "forward")
         {
