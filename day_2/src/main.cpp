@@ -4,13 +4,11 @@
 #include <vector>
 #include <stdio.h>
 
-using namespace std;
-
 int main()
 {
     // define types for the file and the current line
     std::ifstream file;
-    string line;
+    std::string line;
 
     // open the data file
     file.open("../inputs/data.txt");
@@ -31,7 +29,7 @@ int main()
         std::string direction = line.substr(0, line.find(delimiter));
         std::string magnitude = line.substr(line.find(delimiter) + 1, line.size());
 
-        stringstream s;
+        std::stringstream s;
         s << magnitude;
         s >> value;
 
@@ -72,7 +70,7 @@ int main()
         std::string direction = line.substr(0, line.find(delimiter));
         std::string magnitude = line.substr(line.find(delimiter) + 1, line.size());
 
-        stringstream s;
+        std::stringstream s;
         s << magnitude;
         s >> value;
 
